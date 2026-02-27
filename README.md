@@ -64,6 +64,7 @@ Payment Service Providers (PSPs) process payments on behalf of your company. You
 - 🟡 [Frisbii](https://frisbii.com/) (DK) - Subscription billing and payment gateway. Most similar to Stripe functionality wise. Monthly fee required. Runs on AWS.
 - 🟡 [Mollie](https://www.mollie.com/) (NL) - Payment and subscription billing platform popular with EU SMBs. Runs on Google Cloud. Solid pricing, less primitives than Stripe or Frisbii. We use it.
 - 🟡 [Pay.nl](https://www.pay.nl/) (NL) - Dutch PSP with four own data centers in the Netherlands. All payment products developed in-house. Uses Google Cloud to facilitate the actual payment transactions. Unfortunately even smaller feature set than Mollie, doesn't handle subscriptions natively.
+- 🟢 [Stancer](https://www.stancer.com/) (FR) - French PSP built on Scaleway infrastructure with EU data centers. Rather limited feature set (similar to Pay.nl).
 
 ### Merchants of Record
 
@@ -92,8 +93,8 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 ## LLM Observability
 
-- 🔵 [Phoenix](https://phoenix.arize.com/) - Open-source LLM tracing and evaluation by Arize. Single-container deployment, lightweight and simple. Self-host on your EU cloud. We use it.
-- 🔵 [Langfuse](https://langfuse.com/) - Open-source LLM tracing platform with tracing. Powerful feature set, but much heavier to self-host than Phoenix.
+- 🔵 [Phoenix](https://phoenix.arize.com/) (US) - Open-source LLM tracing and evaluation by Arize. Single-container deployment, lightweight and simple. Self-host on your EU cloud. We use it.
+- 🔵 [Langfuse](https://langfuse.com/) (US) - Open-source LLM tracing platform with tracing. Powerful feature set, but much heavier to self-host than Phoenix.
 
 
 ## Web Search APIs
@@ -121,7 +122,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 ## Backups
 
-- 🔵 [Duplicati](https://www.duplicati.com/) - Open-source encrypted backup to any S3-compatible storage. Pair with EU object storage (Hetzner Storage Box, Scaleway Object Storage, OVHcloud Object Storage).
+- 🔵 [Duplicati](https://www.duplicati.com/) (US) - Open-source encrypted backup to any S3-compatible storage. Pair with EU object storage (Hetzner Storage Box, Scaleway Object Storage, OVHcloud Object Storage).
 
 ## Footnotes
 
@@ -129,3 +130,4 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - Where possible, choose 🟢 EU Sovereign providers. Even when data stays in EU data centers, US-owned infrastructure remains subject to the CLOUD Act. Full sovereignty means your data is governed exclusively by EU law.
 - Yes, we are promoting EU infrastructure on a US-owned platform. GitHub is still where European developer eyes are - so we meet the community where it is, while advocating for the stack behind it to be European.
 - Contributions welcome! Read the [contributing guidelines](contributing.md) first.
+- License: [CC0 1.0](LICENSE). Attribution is appreciated, but not required.
