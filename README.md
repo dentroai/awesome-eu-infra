@@ -87,8 +87,9 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 ## AI and LLM Inference
 
-- 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. Use a public inference endpoint or deploy your own model to the their cloud. We use it.
+- 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. The public inference endpoints are often overloaded though. We use it.
 - 🟡 [Mistral AI](https://mistral.ai/) (FR) - The only competitive LLMs trained by a European company. Couldn't really find out what infra they run their inference on, but some sources point to Azure. We use it.
+- 🟢 [Infomaniak AI](https://www.infomaniak.com/en/hosting/ai-services) (CH) - Some of the latest Open Source LLMs running on Infomaniak's own Swiss data centers. We use it.
 - 🟢 [Scaleway AI](https://www.scaleway.com/en/model-as-a-service/) (FR) - Managed inference on Scaleway's own GPU infra. But model quality as well as context window size is currently lackluster.
 
 ## LLM Observability
