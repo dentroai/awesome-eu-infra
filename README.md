@@ -93,6 +93,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - 🟢 [Scaleway AI](https://www.scaleway.com/en/model-as-a-service/) (FR) - Managed inference on Scaleway's own GPU infra. But model quality as well as context window size is currently lackluster.
 - 🟢 [Cortecs](https://cortecs.ai/) (AT) - OpenAI-compatible LLM gateway (European OpenRouter). All models are EU hosted, filter for US companies vs EU only companies. Router runs on EU sovereign cloud, underlying model hosts vary. We use it.
 - 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. The public inference endpoints are often overloaded. They seem to move away from Europe towards the US. We use it.
+- 🟢 [Inceptron](https://inceptron.io/) (SE) - OpenAI-compatible inference for latest open-source models using their own inference engine (not just vLLM). They use nebius servers plus their own alongside 6G.AI. We use it through Cortecs.
 
 ## Audio AI
 
