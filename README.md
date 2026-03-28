@@ -26,6 +26,7 @@ The US CLOUD Act allows US law enforcement to compel data access from US-owned i
 - [Email Delivery](#email-delivery)
 - [Email Hosting](#email-hosting)
 - [AI and LLM Inference](#ai-and-llm-inference)
+- [Speech and Voice AI](#speech-and-voice-ai)
 - [LLM Observability](#llm-observability)
 - [Web Search APIs](#web-search-apis)
 - [Image Generation](#image-generation)
@@ -85,12 +86,17 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - 🟢 [Migadu](https://migadu.com/) (CH) - Practical multi-domain email hosting at flat pricing. DNS lookups resolve to OVH IP ranges in France. Great value for managing many domains and receiving emails and sending emails manually - an email inbox.
 - 🟢 [Proton Mail](https://proton.me/mail) (CH) - Privacy-focused email with end-to-end encryption. Strong brand and security posture. We had issues with our email deliverability early on though.
 
-## AI and LLM Inference
+## LLM Inference
 
-- 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. The public inference endpoints are often overloaded though. We use it.
 - 🟡 [Mistral AI](https://mistral.ai/) (FR) - The only competitive LLMs trained by a European company. Couldn't really find out what infra they run their inference on, but some sources point to Azure. We use it.
 - 🟢 [Infomaniak AI](https://www.infomaniak.com/en/hosting/ai-services) (CH) - Some of the latest Open Source LLMs running on Infomaniak's own Swiss data centers. We use it.
 - 🟢 [Scaleway AI](https://www.scaleway.com/en/model-as-a-service/) (FR) - Managed inference on Scaleway's own GPU infra. But model quality as well as context window size is currently lackluster.
+- 🟢 [Cortecs](https://cortecs.ai/) (AT) - OpenAI-compatible LLM gateway (European OpenRouter). All models are EU hosted, filter for US companies vs EU only companies. Router runs on EU sovereign cloud, underlying model hosts vary. We use it.
+- 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. The public inference endpoints are often overloaded. They seem to move away from Europe towards the US. We use it.
+
+## Audio AI
+
+- 🟡 [Gradium](https://gradium.ai/) (FR) - Real-time text-to-speech, speech-to-text, and voice cloning APIs. Spun out of Kyutai Labs (Paris). Runs on AWS, and plan to move to multi-cloud architecture with AWS/Azure/GCP. They have EU and US deployments.
 
 ## LLM Observability
 
