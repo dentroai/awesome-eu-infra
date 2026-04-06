@@ -92,8 +92,10 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - 🟢 [Infomaniak AI](https://www.infomaniak.com/en/hosting/ai-services) (CH) - Some of the latest Open Source LLMs running on Infomaniak's own Swiss data centers. We use it.
 - 🟢 [Scaleway AI](https://www.scaleway.com/en/model-as-a-service/) (FR) - Managed inference on Scaleway's own GPU infra. But model quality as well as context window size is currently lackluster.
 - 🟢 [Cortecs](https://cortecs.ai/) (AT) - OpenAI-compatible LLM gateway (European OpenRouter). All models are EU hosted, filter for US companies vs EU only companies. Router runs on EU sovereign cloud, underlying model hosts vary. We use it.
-- 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. The public inference endpoints are often overloaded. They seem to move away from Europe towards the US. We use it.
+- 🟡 [Tensorix](https://tensorix.ai/) (IE) - OpenAI-compatible inference with zero data retention. EU data residency for model workloads (e.g. Dublin/Helsinki per provider). Their [sub-processors](https://tensorix.ai/sub-processors) include US companies for parts of the stack, but not for model hosting. Still 🟡 for CLOUD Act exposure on those services. We use it via Cortecs.
+- 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. The public inference endpoints are often overloaded. They seem to move away from Europe towards the US.
 - 🟢 [Inceptron](https://inceptron.io/) (SE) - OpenAI-compatible inference for latest open-source models using their own inference engine (not just vLLM). They use nebius servers plus their own alongside 6G.AI. We use it through Cortecs.
+- 🟢 [AKI.IO](https://aki.io/) (DE) - Open Source LLMs running on their own infra. They offer Minimax M2.5. "Own" infra as it seems to be a spin-off of AIME.info in Berlin.
 
 ## Audio AI
 
@@ -107,12 +109,12 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 ## Web Search APIs
 
-
 - 🟡 [Linkup](https://www.linkup.so/) (FR) - Search API for AI apps with strong developer experience and top factuality benchmarks. Built on Azure. We use it.
-- 🟢 [Staan](https://staan.ai/) (FR) -Search API for AI apps built by Qwant and Ecosia with its own proprietary index. Developer experience was very poor, and can't just sign up and use it. 
+- 🟢 [Staan](https://staan.ai/) (FR) -Search API for AI apps built by Qwant and Ecosia with its own proprietary index. Developer experience was very poor, and can't just sign up and use it.
 
 ## Image Generation
 
+- 🟢 [AKI.IO](https://aki.io/) (DE) - Same EU stack as in [LLM Inference](#llm-inference). Open source image APIs including z-image-turbo and Qwen Image. The only EU option we know for OSS image models outside the FLUX family. We use it.
 - 🟡 [Black Forest Labs](https://blackforestlabs.ai/) (DE) - Creators of FLUX, with dedicated EU endpoint (`api.eu.bfl.ai`). EU routing is available, but underlying cloud vendor is not publicly disclosed. They didn't answer our email about their infra.
 
 ## Analytics
