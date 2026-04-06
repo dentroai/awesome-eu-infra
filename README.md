@@ -30,6 +30,7 @@ The US CLOUD Act allows US law enforcement to compel data access from US-owned i
 - [LLM Observability](#llm-observability)
 - [Web Search APIs](#web-search-apis)
 - [Image Generation](#image-generation)
+- [Document Processing](#document-processing)
 - [Analytics](#analytics)
 - [Authentication](#authentication)
 - [Automation](#automation)
@@ -116,6 +117,11 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 - 🟢 [AKI.IO](https://aki.io/) (DE) - Same EU stack as in [LLM Inference](#llm-inference). Open source image APIs including z-image-turbo and Qwen Image. The only EU option we know for OSS image models outside the FLUX family. We use it.
 - 🟡 [Black Forest Labs](https://blackforestlabs.ai/) (DE) - Creators of FLUX, with dedicated EU endpoint (`api.eu.bfl.ai`). EU routing is available, but underlying cloud vendor is not publicly disclosed. They didn't answer our email about their infra.
+- 🟡 [Iteration Layer](https://iterationlayer.com/) (ES) - Layer-based programmatic image generation, smart cropping, upscaling, and background removal via API. Hosted on Hetzner in Germany, uses GCP for some services.
+
+## Document Processing
+
+- 🟡 [Iteration Layer](https://iterationlayer.com/) (ES) - Composable content processing APIs for document extraction, image transformation, and image, document & sheet generation. Hosted on Hetzner in Germany, uses GCP for some services.
 
 ## Analytics
 
