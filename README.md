@@ -124,6 +124,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 ## Authentication
 
 - 🔵 [better-auth](https://www.better-auth.com/) (US) - Open-source TypeScript authentication framework. Use with popular web frameworks such as nextjs or sveltekit. Self-host on EU infrastructure for full sovereignty - the practical alternative to Auth0/Clerk without giving up features.
+- 🔵 [Hanko](https://www.hanko.io/) (DE) - Open-source authentication & user management. Supports passkeys, passwords, OAuth, and 2FA. German company, cloud hosted on AWS. Self-hostable under AGPL v3.
 
 ## Automation
 
