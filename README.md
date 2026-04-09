@@ -76,7 +76,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 ## Email Delivery
 
-- 🟢 [Lettermint](https://lettermint.co/) (NL) - Transactional and marketing email API and SMTP relay, built entirely on OVHcloud. Cracked and responsive founder team. Great deliverability and pricing. We use it.
+- 🟢 [Lettermint](https://lettermint.co/) (NL) - Transactional and marketing email API and SMTP relay, built entirely on UpCloud. Cracked and responsive founder team. Great deliverability and pricing. We use it.
 - 🟡 [Brevo](https://www.brevo.com/) (FR) - Marketing + transactional email, CRM, and SMS. Uses OVH for primary hosting but Google Cloud for backups/storage in Belgium. Has a global suppression list across domains, making it unusable for us.
 - 🟡 [Mailjet](https://www.mailjet.com/) (FR) - Transactional and marketing email. Runs on Google Cloud in EU regions (Frankfurt + St. Ghislain).
 - 🟡 [MailerLite](https://www.mailerlite.com/) (LT) - Email marketing email platform. Runs on Google Cloud.
