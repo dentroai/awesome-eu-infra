@@ -24,6 +24,8 @@ In your PR description, briefly include:
 - Why it belongs in this list
 - What infra they run on
 
+**Note on curation:** Please append **"Community."** to the end of your entry to indicate it's a community contribution. Do not add "We use it." as that is reserved for the maintainers.
+
 ## Code Of Conduct
 
 Keep communication respectful and constructive.

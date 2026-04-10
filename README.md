@@ -8,6 +8,13 @@
 
 The US CLOUD Act allows US law enforcement to compel data access from US-owned infrastructure, regardless of where the data physically sits. Using an EU SaaS hosted on AWS Frankfurt still carries this exposure. This list makes that distinction visible so you can make informed infrastructure decisions.
 
+### Curation Policy
+
+This list contains tools curated by us, as well as tools contributed by the community:
+- Items ending with **"We use it."** are tools we personally use in production at Dentro.
+- Items ending with **"Community."** have been submitted and tested by community members.
+- Unmarked items are tools we researched and want to showcase. They meet our sovereignty criteria and might seem promising, though we haven't extensively tested them ourselves.
+
 ### Sovereignty Tiers
 
 | | Tier | Meaning |
