@@ -103,8 +103,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - 🟢 [Nebius AI Studio](https://nebius.com/ai-studio) (NL) - Inference platform for open-source models on Nebius-owned GPU clusters. The public inference endpoints are often overloaded. They seem to move away from Europe towards the US.
 - 🟢 [Inceptron](https://inceptron.io/) (SE) - OpenAI-compatible inference for latest open-source models using their own inference engine (not just vLLM). They use nebius servers plus their own alongside 6G.AI. We use it through Cortecs.
 - 🟢 [AKI.IO](https://aki.io/) (DE) - Open Source LLMs running on their own infra. They offer Minimax M2.5. "Own" infra as it seems to be a spin-off of AIME.info in Berlin.
-- 🟢 [Melious AI](https://melious.ai/) (DE/EU) - OpenAI- and Anthropic-compatible API on top of 10+ European inference providers across 8 countries. 60+ Open Weight LLMs with
-automatic failover.
+- 🟢 [Melious AI](https://melious.ai/) (DE/EU) - OpenAI- and Anthropic-compatible API on top of 10+ European inference providers across 8 countries. 60+ Open Weight LLMs with automatic failover.
 
 ## Audio AI
 
