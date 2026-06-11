@@ -39,6 +39,7 @@ This list contains tools curated by us, as well as tools contributed by the comm
 - [Image Generation](#image-generation)
 - [Analytics](#analytics)
 - [Authentication](#authentication)
+- [E-Signature](#e-signature)
 - [Automation](#automation)
 - [Backups](#backups)
 
@@ -131,6 +132,10 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 ## Authentication
 
 - 🔵 [better-auth](https://www.better-auth.com/) (US) - Open-source TypeScript authentication framework. Use with popular web frameworks such as nextjs or sveltekit. Self-host on EU infrastructure for full sovereignty - the practical alternative to Auth0/Clerk without giving up features.
+
+## E-Signature
+
+- 🟢 [sproof](https://www.sproof.com/) (AT) - E-signature platform with a feature set very similar to US players like DocuSign. Signing groups, approver groups, workflows, and API. Fully EU-hosted infrastructure and good pricing.
 
 ## Automation
 
