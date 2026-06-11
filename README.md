@@ -41,6 +41,7 @@ This list contains tools curated by us, as well as tools contributed by the comm
 - [Authentication](#authentication)
 - [E-Signature](#e-signature)
 - [Automation](#automation)
+- [Uptime Monitoring](#uptime-monitoring)
 - [Backups](#backups)
 
 ## Hosting and Compute
@@ -141,7 +142,12 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 ## Automation
 
 - 🟡 [Make](https://www.make.com/) (CZ) - Visual no-code automation platform. Infrastructure runs on AWS.
-- 🔵 [n8n](https://n8n.io/) (DE) - Visual no-code automation platform. The cloud version runs on Azure, so self-hosting is the play here.
+- 🔵 [n8n](https://n8n.io/) (DE) - Visual no-code automation platform. The cloud version runs on Azure, so self-hosting is the right approach.
+
+## Uptime Monitoring
+
+- 🔵 [Uptime Kuma](https://uptime.kuma.pet/) (HK) - Lightweight single-container uptime monitoring to self-host. HTTP/TCP/ping/DNS checks, multiple status pages with incident view, many notification integrations. We use it.
+- 🔵 [OneUptime](https://oneuptime.com/) (US) - Full observability platform: uptime monitoring, status pages, on-call, incident management, logs, and APM. Much heavier than Uptime Kuma, but much broader feature set. Self-host for full sovereignty.
 
 ## Backups
 
