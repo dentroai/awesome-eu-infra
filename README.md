@@ -51,6 +51,7 @@ Badges are short labels so tiers are readable without relying on color alone.
 - 🟢 [SOV] [Hetzner](https://www.hetzner.com/) (DE) - Bare-metal servers, VPS, and block storage. Unbeatable price-to-performance ratio. Owns and operates its own data centers in Germany and around the world. We use it.
 - 🟢 [SOV] [Scaleway](https://www.scaleway.com/) (FR) - Full cloud ecosystem with instances, S3-compatible object storage, managed databases, and serverless. Owns its infrastructure and easy to use. We use it.
 - 🟢 [SOV] [OVHcloud](https://www.ovhcloud.com/) (FR) - Enterprise-grade dedicated servers and public cloud built on OpenStack. One of the largest EU-owned cloud providers, operating its own global data center network.
+- 🟢 [SOV] [Hikube](https://hikube.cloud/) (CH) - Swiss sovereign cloud by Hidora with VMs, CNCF-certified managed Kubernetes, managed databases, and S3-compatible storage. Runs its own hardware in three Swiss data centers (Geneva, Gland, Lucerne) with synchronous triple replication, so high availability is included instead of being an upsell. Community.
 
 
 ## GPU Compute
