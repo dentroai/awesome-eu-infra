@@ -2,7 +2,7 @@
 
 > European infrastructure tools for building, deploying, and scaling software - categorized by sovereignty level.
 
-<sup>Built and maintained by Dentro - we run <a href="https://dentro.chat">DentroChat</a> entirely on sovereign European infrastructure.</sup>
+<sup>Built and maintained by Dentro - we run <a href="https://dentro.chat">DentroChat</a>, the best EU AI Chat entirely on sovereign European infrastructure.</sup>
 
 ---
 
@@ -45,13 +45,13 @@ Badges are short labels so tiers are readable without relying on color alone.
 - [Automation](#automation)
 - [Uptime Monitoring](#uptime-monitoring)
 - [Backups](#backups)
+- [Related Reading](#related-reading)
 
 ## Hosting and Compute
 
 - 🟢 [SOV] [Hetzner](https://www.hetzner.com/) (DE) - Bare-metal servers, VPS, and block storage. Unbeatable price-to-performance ratio. Owns and operates its own data centers in Germany and around the world. We use it.
 - 🟢 [SOV] [Scaleway](https://www.scaleway.com/) (FR) - Full cloud ecosystem with instances, S3-compatible object storage, managed databases, and serverless. Owns its infrastructure and easy to use. We use it.
 - 🟢 [SOV] [OVHcloud](https://www.ovhcloud.com/) (FR) - Enterprise-grade dedicated servers and public cloud built on OpenStack. One of the largest EU-owned cloud providers, operating its own global data center network.
-- 🟢 [SOV] [Hikube](https://hikube.cloud/) (CH) - Swiss sovereign cloud by Hidora with VMs, CNCF-certified managed Kubernetes, managed databases, and S3-compatible storage. Runs its own hardware in three Swiss data centers (Geneva, Gland, Lucerne) with synchronous triple replication, so high availability is included instead of being an upsell. Community.
 
 
 ## GPU Compute
@@ -110,8 +110,6 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - 🟢 [SOV] [AKI.IO](https://aki.io/) (DE) - Open Source LLMs running on their own infra. They offer Minimax M2.5. "Own" infra as it seems to be a spin-off of AIME.info in Berlin.
 - 🟢 [SOV] [Melious AI](https://melious.ai/) (DE/EU) - OpenAI- and Anthropic-compatible API on top of 10+ European inference providers across 8 countries. 60+ Open Weight LLMs with automatic failover. Community.
 
-- 🟢 [SOV] [LLM Tech](https://llmtech.eu/) (PL) - OpenAI-compatible inference for Qwen3.8-27B (262K context) on EU-owned infrastructure (German edge, Finnish GPU datacenter). Zero data retention, public live status page with measured TTFT and throughput. Community.
-
 ## Audio AI
 
 - 🟡 [C-EU] [Gradium](https://gradium.ai/) (FR) - Real-time text-to-speech, speech-to-text, and voice cloning APIs. Spun out of Kyutai Labs (Paris). Runs on AWS, and plan to move to multi-cloud architecture with AWS/Azure/GCP. They have EU and US deployments.
@@ -158,6 +156,10 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 ## Backups
 
 - 🔵 [SELF] [Duplicati](https://www.duplicati.com/) (US) - Open-source encrypted backup to any S3-compatible storage. Pair with EU object storage (Hetzner Storage Box, Scaleway Object Storage, OVHcloud Object Storage).
+
+## Related Reading
+
+- [6 Best EU AI Chat Platforms in 2026](https://medium.com/@paul.plessing/6-best-eu-ai-chat-platforms-in-2026-the-complete-comparison-of-european-chatgpt-alternatives-ffd858093f78) - Our comparison of European ChatGPT alternatives based on features and sovereignity, including our own DentroChat.
 
 ## Footnotes
 
