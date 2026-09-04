@@ -110,6 +110,8 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - 🟢 [SOV] [AKI.IO](https://aki.io/) (DE) - Open Source LLMs running on their own infra. They offer Minimax M2.5. "Own" infra as it seems to be a spin-off of AIME.info in Berlin.
 - 🟢 [SOV] [Melious AI](https://melious.ai/) (DE/EU) - OpenAI- and Anthropic-compatible API on top of 10+ European inference providers across 8 countries. 60+ Open Weight LLMs with automatic failover. Community.
 
+- 🟢 [SOV] [LLM Tech](https://llmtech.eu/) (PL) - OpenAI-compatible inference for Qwen3.8-27B (262K context) on EU-owned infrastructure (German edge, Finnish GPU datacenter). Zero data retention, public live status page with measured TTFT and throughput. Community.
+
 ## Audio AI
 
 - 🟡 [C-EU] [Gradium](https://gradium.ai/) (FR) - Real-time text-to-speech, speech-to-text, and voice cloning APIs. Spun out of Kyutai Labs (Paris). Runs on AWS, and plan to move to multi-cloud architecture with AWS/Azure/GCP. They have EU and US deployments.
