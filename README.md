@@ -59,6 +59,7 @@ Badges are short labels so tiers are readable without relying on color alone.
 - 🟢 [SOV] [Hetzner](https://www.hetzner.com/gpu-server) (DE) - Dedicated GPU servers at aggressive pricing. However, small GPUs (GEX44, GEX131) and setup fee required.
 - 🟢 [SOV] [Scaleway](https://www.scaleway.com/en/gpu-instances/) (FR) - Widest and most accessible EU-native GPU variety (H100, B300) with hourly rental.
 - 🟢 [SOV] [Nebius](https://nebius.com/) (NL) - Large-scale GPU clusters (H100, H200, L40S) with own infrastructure.
+- 🟢 [SOV] [LeaderGPU](https://www.leadergpu.com/) (NL) - Bare-metal GPUs, own servers in Netherlands No setup fees. Widest consumer GPU range, while still same low GPU prices as Hetzner.
 
 
 ## Deployment and Orchestration
