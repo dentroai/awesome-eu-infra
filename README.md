@@ -2,7 +2,7 @@
 
 > European infrastructure tools for building, deploying, and scaling software - categorized by sovereignty level.
 
-<sup>Built and maintained by Dentro - we run <a href="https://dentro.chat">DentroChat</a>, the best EU AI Chat entirely on sovereign European infrastructure.</sup>
+<sup>Built and maintained by <a href="https://dentroai.com">Dentro</a> - we run <a href="https://dentro.chat">DentroChat</a>, the best EU AI Chat entirely on sovereign European infrastructure.</sup>
 
 > **Issues and pull requests belong on [Codeberg](https://codeberg.org/dentroai/awesome-eu-infra)** - a non-profit, community-run Git host based in Berlin. A list about European digital sovereignty should live on awesome EU infra, so Codeberg is the canonical repository here. The [GitHub copy](https://github.com/dentroai/awesome-eu-infra) is a read-only mirror that exists because that is where most developers are, but pull requests opened on Github are closed automatically.
 
