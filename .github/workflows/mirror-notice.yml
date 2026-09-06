@@ -15,6 +15,14 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ github.event.pull_request.number }}
+          BODY: |
+            Thanks for contributing! Unfortunately this PR has to be closed: it is now a read-only mirror, so anything merged here gets overwritten on the next sync.
+
+            **Please reopen your pull request on [Codeberg](https://codeberg.org/dentroai/awesome-eu-infra)** and it will get a proper review.
+
+            Why this: a list about European digital sovereignty should live on European infrastructure. We chose Codeberg cause it's the biggest European Git host for public repos. Signing up is quick and free.
+            
+            The GitHub mirror exists because that is where most developers are.
         run: |
-          gh pr comment "$NUMBER" --body "Thanks for the contribution! This repository is a read-only mirror of [codeberg.org/dentroai/awesome-eu-infra](https://codeberg.org/dentroai/awesome-eu-infra), and anything merged here is overwritten on the next sync. Please reopen this pull request on Codeberg and it will get a proper review."
+          gh pr comment "$NUMBER" --body "$BODY"
           gh pr close "$NUMBER"

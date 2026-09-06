@@ -4,9 +4,7 @@ Thanks for helping improve this list.
 
 ## Where To Contribute
 
-All development happens on [Codeberg](https://codeberg.org/dentroai/awesome-eu-infra). The GitHub repository is a read-only mirror, and pull requests opened there will be closed with a pointer back here.
-
-Codeberg is a non-profit, European, community-run forge. Signing up takes a minute and no phone number is required - fitting, given what this list is about.
+All development happens on [Codeberg](https://codeberg.org/dentroai/awesome-eu-infra). The GitHub repository is a read-only mirror: pull requests opened on Github are closed automatically.
 
 ## How To Contribute
 
