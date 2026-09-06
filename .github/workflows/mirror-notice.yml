@@ -1,0 +1,20 @@
+name: Mirror notice
+
+on:
+  pull_request_target:
+    types: [opened]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          gh pr comment "$NUMBER" --body "Thanks for the contribution! This repository is a read-only mirror of [codeberg.org/dentroai/awesome-eu-infra](https://codeberg.org/dentroai/awesome-eu-infra), and anything merged here is overwritten on the next sync. Please reopen this pull request on Codeberg and it will get a proper review."
+          gh pr close "$NUMBER"
