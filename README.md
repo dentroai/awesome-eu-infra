@@ -166,7 +166,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 ## Backups
 
-- 🔵 [SELF] [Duplicati](https://www.duplicati.com/) (US) - Open-source encrypted backup to any S3-compatible storage. Pair with EU object storage (Hetzner Storage Box, Scaleway Object Storage, OVHcloud Object Storage). 
+- 🔵 [SELF] [Duplicati](https://www.duplicati.com/) (US) - Open-source encrypted backup to any S3-compatible storage. Pair with EU object storage (Hetzner Storage Box, Scaleway Object Storage, OVHcloud Object Storage).
 
 ## Related Reading
 
