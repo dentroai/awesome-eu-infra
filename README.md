@@ -1,4 +1,4 @@
-# Awesome European Infrastructure [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
+# <img src="logo-mark.svg" alt="" width="30" height="30" align="top"> Awesome European Infrastructure [![Awesome](https://awesome.re/badge-flat2.svg)](https://awesome.re)
 
 > European infrastructure tools for building, deploying, and scaling software - categorized by sovereignty level.
 
@@ -91,7 +91,7 @@ Payment Service Providers (PSPs) process payments on behalf of your company. You
 
 ### Merchants of Record
 
-Merchants of Record (MoRs) become the legal seller of your product. They handle international tax, VAT, and compliance — you receive payouts. Convenient, but adds a dependency layer.
+Merchants of Record (MoRs) become the legal seller of your product. They handle international tax, VAT, and compliance, and you receive payouts. Convenient, but adds a dependency layer.
 
 - 🔴 [XEU] [Polar](https://polar.sh/) (SE) - Open-source MoR platform for developers selling SaaS and digital products. Uses Stripe under the hood for payment processing. Because Stripe cannot guarantee EU-only processing, data can be transferred outside Europe.
 - 🔴 [XEU] [Creem](https://creem.io/) (EE) - MoR for SaaS and AI-native startups. Built on top of Stripe Connect for payment processing and payouts. Same constraint as above: EU-only processing cannot be guaranteed.

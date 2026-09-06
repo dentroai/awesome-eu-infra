@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="44" height="44" role="img" aria-label="Awesome EU Infra">
+  <style>
+    path { fill: #1b4dd8; }
+    @media (prefers-color-scheme: dark) {
+      path { fill: #7fa5ff; }
+    }
+  </style>
+  <path fill-rule="evenodd" transform="translate(-2.444 -2.444) scale(1.5278)" d="M16 1.6a14.4 14.4 0 1 0 0 28.8 14.4 14.4 0 0 0 0-28.8Zm-5.4 11.2a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4Zm10.8 0a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4Z"/>
+</svg>
