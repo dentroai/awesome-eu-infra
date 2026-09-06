@@ -55,6 +55,7 @@ Badges are short labels so tiers are readable without relying on color alone.
 - 🟢 [SOV] [Hetzner](https://www.hetzner.com/) (DE) - Bare-metal servers, VPS, and block storage. Unbeatable price-to-performance ratio. Owns and operates its own data centers in Germany and around the world. We use it.
 - 🟢 [SOV] [Scaleway](https://www.scaleway.com/) (FR) - Full cloud ecosystem with instances, S3-compatible object storage, managed databases, and serverless. Owns its infrastructure and easy to use. We use it.
 - 🟢 [SOV] [OVHcloud](https://www.ovhcloud.com/) (FR) - Enterprise-grade dedicated servers and public cloud built on OpenStack. One of the largest EU-owned cloud providers, operating its own global data center network.
+- 🟢 [SOV] [Hikube](https://hikube.cloud/) (CH) - Swiss cloud by Hidora with VMs, CNCF-certified managed Kubernetes, managed databases, and S3-compatible storage. Own hardware in three Swiss data centers (Geneva, Gland, Lucerne) with synchronous triple replication ensures high availability. Community.
 
 
 ## GPU Compute
@@ -118,6 +119,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 - 🟢 [SOV] [Inceptron](https://inceptron.io/) (SE) - OpenAI-compatible inference for latest open-source models using their own inference engine (not just vLLM). They use nebius servers plus their own alongside 6G.AI. We use it through Cortecs.
 - 🟢 [SOV] [AKI.IO](https://aki.io/) (DE) - Open Source LLMs running on their own infra. They offer Minimax M2.5. "Own" infra as it seems to be a spin-off of AIME.info in Berlin.
 - 🟢 [SOV] [Melious AI](https://melious.ai/) (DE/EU) - OpenAI- and Anthropic-compatible API on top of 10+ European inference providers across 8 countries. 60+ Open Weight LLMs with automatic failover. Community.
+- 🟢 [SOV] [LLM Tech](https://llmtech.eu/) (PL) - OpenAI-compatible inference for Qwen3.8-27B (262K context) on EU-owned infrastructure (German edge, Finnish GPU datacenter). Zero data retention, public live status page with measured TTFT and throughput. Community.
 
 ## Audio AI
 
