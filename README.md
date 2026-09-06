@@ -4,6 +4,8 @@
 
 <sup>Built and maintained by Dentro - we run <a href="https://dentro.chat">DentroChat</a>, the best EU AI Chat entirely on sovereign European infrastructure.</sup>
 
+> **Issues and pull requests belong on [Codeberg](https://codeberg.org/dentroai/awesome-eu-infra).** That is the canonical repository; the [GitHub copy](https://github.com/dentroai/awesome-eu-infra) is a read-only mirror, and pull requests opened there are closed automatically.
+
 ---
 
 The US CLOUD Act allows US law enforcement to compel data access from US-owned infrastructure, regardless of where the data physically sits. Using an EU SaaS hosted on AWS Frankfurt still carries this exposure. This list makes that distinction visible so you can make informed infrastructure decisions.
