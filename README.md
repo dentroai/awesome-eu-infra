@@ -116,6 +116,7 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 ## Audio AI
 
 - 🟡 [C-EU] [Gradium](https://gradium.ai/) (FR) - Real-time text-to-speech, speech-to-text, and voice cloning APIs. Spun out of Kyutai Labs (Paris). Runs on AWS, and plan to move to multi-cloud architecture with AWS/Azure/GCP. They have EU and US deployments.
+- A new tool!
 
 ## LLM Observability
 
