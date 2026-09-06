@@ -33,6 +33,7 @@ Badges are short labels so tiers are readable without relying on color alone.
 - [Hosting and Compute](#hosting-and-compute)
 - [GPU Compute](#gpu-compute)
 - [Deployment and Orchestration](#deployment-and-orchestration)
+- [Code Hosting](#code-hosting)
 - [Payments](#payments)
 - [Email Delivery](#email-delivery)
 - [Email Hosting](#email-hosting)
@@ -67,6 +68,11 @@ Badges are short labels so tiers are readable without relying on color alone.
 ## Deployment and Orchestration
 
 - 🔵 [SELF] [Coolify](https://coolify.io/) - Self-hosted PaaS alternative to Heroku/Vercel. One-click install on any VPS, auto-deploy on git push, built-in SSL. The simplest way to get a fully European deployment pipeline - rent a Hetzner server, install Coolify, deploy everything from there. We use it.
+
+## Code Hosting
+
+- 🟢 [SOV] [Codeberg](https://codeberg.org/) (DE) - Free Git hosting for open-source projects, run by the non-profit Codeberg e.V. in Berlin on hardware the association owns, with netcup and Hetzner used only for backups and DDoS protection. Private repos are limited to ~100 MB and must support a free software project, so it is not a GitHub replacement for commercial work. We use it.
+- 🔵 [SELF] [Forgejo](https://forgejo.org/) (DE) - Single Go binary, runs fine on a small VPS, actions are largely GitHub-workflow compatible. GPLv3, community-governed under Codeberg e.V. after Gitea's trademark was handed to a for-profit company.
 
 ## Payments
 
