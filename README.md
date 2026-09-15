@@ -69,7 +69,7 @@ Badges are short labels so tiers are readable without relying on color alone.
 ## Deployment and Orchestration
 
 - 🔵 [SELF] [Coolify](https://coolify.io/) - Self-hosted PaaS alternative to Heroku/Vercel. One-click install on any VPS, auto-deploy on git push, built-in SSL. The simplest way to get a fully European deployment pipeline - rent a Hetzner server, install Coolify, deploy everything from there. We use it.
-- 🟢 [SOV] [Clever Cloud](https://www.clever.cloud/) (FR) - Managed European PaaS with Git-based deployments, automated builds, scaling, application runtimes and managed data services. Operates its own platform and infrastructure in European data centers.
+- 🟢 [SOV] [Clever Cloud](https://www.clever.cloud/) (FR) - Managed European PaaS with Git-based deployments, automated builds, scaling, application runtimes and managed data services. Operates its own platform and infrastructure in European data centers. Community.
 
 ## Code Hosting
 
