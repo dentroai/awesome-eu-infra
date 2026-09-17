@@ -162,7 +162,8 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 ## Uptime Monitoring
 
-- 🔵 [SELF] [Uptime Kuma](https://uptime.kuma.pet/) (HK) - Lightweight single-container uptime monitoring to self-host. HTTP/TCP/ping/DNS checks, multiple status pages with incident view, many notification integrations. We use it.
+- 🟢 [SOV] [Phare](https://phare.io/) (EE) - Hosted Uptime Monitoring, public and private status pages, multi region monitor running on Hetzner and Bunny, various alerting integrations. Beautiful UI. Free plan and paid is very affordable and transparent. We use it. 
+- 🔵 [SELF] [Uptime Kuma](https://uptime.kuma.pet/) (HK) - Lightweight single-container uptime monitoring to self-host. HTTP/TCP/ping/DNS checks, multiple status pages with incident view, many notification integrations. We used it before switching to Phare.
 - 🔵 [SELF] [OneUptime](https://oneuptime.com/) (US) - Full observability platform: uptime monitoring, status pages, on-call, incident management, logs, and APM. Much heavier than Uptime Kuma, but much broader feature set. Self-host for full sovereignty.
 
 ## Backups
