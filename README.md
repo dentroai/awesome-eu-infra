@@ -42,6 +42,7 @@ Badges are short labels so tiers are readable without relying on color alone.
 - [LLM Observability](#llm-observability)
 - [Web Search APIs](#web-search-apis)
 - [Image Generation](#image-generation)
+- [AI Coding Tools](#ai-coding-tools)
 - [Analytics](#analytics)
 - [Authentication](#authentication)
 - [E-Signature](#e-signature)
@@ -141,6 +142,13 @@ Merchants of Record (MoRs) become the legal seller of your product. They handle 
 
 - 🟢 [SOV] [AKI.IO](https://aki.io/) (DE) - Same EU stack as in [LLM Inference](#llm-inference). Open source image APIs including z-image-turbo and Qwen Image. The only EU option we know for OSS image models outside the FLUX family. We use it.
 - 🟡 [C-EU] [Black Forest Labs](https://blackforestlabs.ai/) (DE) - Creators of FLUX, with dedicated EU endpoint (`api.eu.bfl.ai`). EU routing is available, but underlying cloud vendor is not publicly disclosed. They didn't answer our email about their infra.
+
+## AI Coding Tools
+
+Each of them can be used with any LLM provider.
+
+- 🔵 [SELF] [Pi](https://pi.dev/) (AT) - Minimal open-source terminal coding agent. The "Arch Linux" of coding agents cause base feature set is tiny, and can be customized as much as you want.
+- 🔵 [SELF] [Zed](https://zed.dev/) (US) - High-performance open-source code editor with a built-in agent panel. Runs entirely locally (disable telemetry). We use it.
 
 ## Analytics
 
